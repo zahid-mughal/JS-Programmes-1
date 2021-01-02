@@ -4,16 +4,12 @@ userInput.question("Enter Your Name...", function(n){
    
 
 userInput.question("Enter Number...", function(p){
-    // console.log(`Hi ${n} </br>  ${hightInCm(i)}`);
     console.log(`Hi ${n}. Your Typed Number`);
     checkPrimNo(p);
    
 userInput.close();
 })
 })
-// userInput.on("close",function(){
-// console.log("thanks for convert Inches in to Centimetre...")
-// })
 function checkPrimNo(num){
     let flag=true;
     if(num != 1){
